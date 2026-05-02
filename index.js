@@ -1,8 +1,11 @@
-const express = require("express");
-const app = express();
+const express = require("express")
+const app = express()
 
-app.use(express.json());
+app.use(express.json())
 
 
 
-app.listen()
+app.listen(3000, () => {   
+    console.log("The server is open at http://localhost/3000")
+ }) 
+  
